@@ -1,5 +1,8 @@
 # cryptic love in a comment
-An example of performing sentiment analysis on comments from the latest hacker news posts using the [crul](https://crul.com) map/expand engine.
+
+## overview 
+
+An example of performing sentiment analysis on comments from the latest hacker news posts using the [crul](https://crul.com) map/expand engine. 
 
 ```bash
 open https://news.ycombinator.com/news
@@ -17,3 +20,8 @@ open https://news.ycombinator.com/news
   --table "url,comment,sentiment"
 || lowercase sentiment
 ```
+
+## results
+
+[csv](results.csv)
+[ndjson](results.ndjson)
